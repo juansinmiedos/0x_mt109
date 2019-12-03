@@ -1,0 +1,31 @@
+(I was asked to answer this questions with my actual knowledge and without Googling information)
+
+1.- The Waterfall model is a methodology for software development in a sequential way, explain the life cycle of a software using this model and when it should be used.
+I haven't used the Waterfall model.
+
+2.- Explain the difference between unit tests, integration tests, and acceptance tests.
+I have only done unit testing using Jasmine: I basically work with a set of tests that I was given and I had to write proper code in order to pass that test, I haven't use the other types of tests.
+
+3.- How does SCRUM work?
+I haven't used SCRUM properly but in a previous work experience we used to do some SCRUM-like activity on a weekly basis: It consisted on every Friday we all should share something that we achieve on the week, something that we would be doing the next week and something or someone that represented an obstacle to achieve that week's goals. Later on the agency project that started with some friends we did a daily activity (called the "15 minutes meeting") that consisted on the whole team should say their activities due to that day (ideally activities that you had to finish during that day) we did that to help us identify the status of each account and move on, I have been told that there is a relationship between that activity and what proper SCRUM is like.
+
+4.- Kent Beck was the creator of Extreme Programming methodology, he proposed a new way to create software called TDD (Test-Driven Development). Explain how TDD works and why it is important to use it.
+When using Jasmine for unit testing I was taught that TDD was the fact of writing tests about what we would want to achieve and after creating the test create the code to pass it. It would be wrong to write tests after writing the code because that would lead to a bias that might allow wrong code to pass the tests.
+
+5.- Explain how Continuous Integration works and list its benefits.
+When working with continuous integration you basically have to do "push" multiple times when you are working. This is particularly useful when you are working with teams and some tasks depend on tasks that you are currently working on. The idea, though, is not to "push" everytime just because you have to, but because you have finished some part of the code. Another benefit of it is that allows you to track the evolution of the code and identify errors or mistakes.
+
+6.- What is the difference between a monolithic application and an application based in microservices?
+I haven't heard of monolithic application before.
+
+7.- What are the main DevOps principles ?
+I am not familiar with them
+
+8.- Pair programming is a technique used in Agile Software Development, explain its benefits.
+The most obvious one is that you can deliver faster than developing "solo", and the second one might be that working with someone else can help you to find mistakes maken on your code or even help you to solve a problem to which you haven't found the solution.
+
+9.- What are your 3 favorite open source projects and why?
+I don't have one yet! I don't know many open source projects actually (I only know that Vue is an open-source framework)
+
+10.- List 3 books that have impacted and improved your professional career as a developer.
+I haven't read web development books yet! So far my main source of information are Medium articles.
