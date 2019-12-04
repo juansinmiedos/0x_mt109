@@ -8,7 +8,11 @@ const rotator = (arr, d) => {
         rotatedArr.push(firstElement)
     }
 
-    return rotatedArr
+    //In the instructions the sample outputs are arrays, but to print it as a string of separeted values (as the last paragraph said) we do this aditional step
+    
+    return rotatedArr.map(String).join(' ')
+
+    // otherwise we would only return rotatedArr
 }
 
 rotator(array, 4)
