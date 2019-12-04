@@ -1,0 +1,89 @@
+*{
+    margin: 0
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F5F5F5;
+}
+
+h6{
+    margin: 0 0 5px 0;
+    font-weight: 100;
+    font-size: 14px;
+    color: #919191;
+}
+
+p{
+    margin: 0;
+    font-size: 16px;
+}
+
+span{
+    color: white;
+    font-size: 16px;
+    padding: 5px 14px;
+    border-radius: 15px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.single-container{
+    margin: 5px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-radius: 3px;;
+}
+
+.table-element{
+    margin: 10px;
+}
+
+.ruta{
+    width: 5%;
+}
+
+.conductor{
+    width: 30%;
+}
+
+.creada{
+    width: 20%;
+}
+
+.hora{
+    width: 5%;
+}
+
+.entrega{
+    width: 15%;
+}
+
+.status{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blue-tag{
+    border-left: 4px solid #4D8DD5;
+}
+
+.green-tag{
+    border-left: 4px solid #7EA644;
+}
+
+.blue-span{
+    background-color: #4D8DD5;
+}
+
+.green-span{
+    background-color: #7EA644;
+}
