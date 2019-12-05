@@ -19,17 +19,25 @@ export default class Home extends Component {
 
     updateSocket = () => {
         socket.onmessage = (event) => {
-            this.setState(prevState => (
-                {
-                    ...prevState,
-                    routes: [...prevState.routes, JSON.parse(event.data)]
+
+            for (let i in this.state.routes){
+
+                console.log(JSON.parse(event.data))
+                
+                if(this.state.routes[i].route_id === JSON.parse(event.data).route_id){
+                    this.setState(prevState => (
+                        {
+                            ...prevState,
+                            [prevState.routes[i]]: JSON.parse(event.data)
+                        }
+                    ))
+                    break;
                 }
-            ))
+            }
         };
     }
 
     tableDrawer = () => {
-        console.log(this.state.routes)
         return this.state.routes.map(el => <Card el={el} key={el.route_id} />)
     }
 
